@@ -1,0 +1,211 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	/* vertical-align: baseline; */
+}
+
+/* style */
+
+body {
+  background-image: url(img/bgimg.png);
+}
+
+.backContainer {
+  width: 800px;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(to bottom, red, aliceblue);
+}
+
+.header {
+  display: flex;
+  width: 780px;
+  height: 80px;
+  background-image: linear-gradient(to left,  #fd2324, aliceblue);
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Caladea, arial;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.judul {
+  display: flex;
+  width: 690px;
+  height: 60px;
+  background-image: linear-gradient(to left,  #fc3a3b, aliceblue);
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Caladea, arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.judul p {
+  margin-left: 10px;
+}
+
+.judul1 {
+  display: flex;
+  width: 600px;
+  height: 60px;
+  background-image: linear-gradient(to left,  red, aliceblue);
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Caladea, arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.judul1 p {
+  margin-left: 10px;
+}
+
+.judul2 {
+  display: flex;
+  width: 500px;
+  height: 30px;
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Caladea, arial;
+  font-size: 15px;
+  font-weight: 700;
+  color: #e34f26;;
+  background-color: #f0db4f;
+}
+
+.carousel-container {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    border: solid #0277bd 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  
+  .carousel {
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    animation: slide 20s linear infinite;
+    cursor: pointer;
+  }
+  
+  .carousel:hover {
+    animation-play-state: paused;
+  }
+  
+  .carousel-image {
+    width: 550px;
+    /* height: 300px; */
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  
+  .carousel-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-550px * 3));
+    }
+  }
+
+  .tabelGambar {
+    /* border: solid 3px; */
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .tabelGambar .tabelPic {
+    width: 150px;
+  }
+
+  .tabelId{
+    width: 730px;
+    margin: auto;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Carlito, arial;
+  }
+
+  .tabelId .kolomA {
+    width: 150px;
+  }
+
+  .tabelId .kolomB {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  .tabelId .kolomB .tebal {
+    font-size: 25px;
+      font-weight: 700;
+  }
+
+  .tabelId .kolomB .tebal1 {
+    font-size: 18px;
+      font-weight: 700;
+  }
+
+  .tabelId .kolomB .subList {
+      margin-left: 15px;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .tombKanan a {
+    display: flex;
+    justify-content: center;
+  }
