@@ -31,9 +31,9 @@ document.getElementById('button3');
 document.getElementById('tombol4');
     function d(img)
         {
-        img.src = "img/emailOn.png"
+        img.src = "img/gitOn.png"
         }
     function dOut(img)
         {
-        img.src = "img/emailOff.png"
+        img.src = "img/gitOff.png"
         }
