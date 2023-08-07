@@ -179,7 +179,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-550px * 4));
+      transform: translateX(calc(-550px * 5));
     }
   }
 
