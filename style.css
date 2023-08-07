@@ -38,7 +38,7 @@ body {
   display: flex;
   width: 780px;
   height: 80px;
-  background-image: linear-gradient(to left,  #fd2324, aliceblue);
+  background-image: linear-gradient(to left,  #FF0D0D, aliceblue);
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -50,11 +50,15 @@ body {
   font-weight: 700;
 }
 
+.fonttebal {
+  font-weight: 700;
+}
+
 .judul {
   display: flex;
   width: 690px;
   height: 60px;
-  background-image: linear-gradient(to left,  #fc3a3b, aliceblue);
+  background-image: linear-gradient(to left,  #FD1B1C, aliceblue);
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -74,7 +78,7 @@ body {
   display: flex;
   width: 600px;
   height: 60px;
-  background-image: linear-gradient(to left,  red, aliceblue);
+  background-image: linear-gradient(to left,  #FD2627, aliceblue);
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -91,9 +95,9 @@ body {
 }
 
 .judul2 {
-  display: flex;
+  /* display: flex; */
   width: 500px;
-  height: 30px;
+  height:100px;
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -102,9 +106,36 @@ body {
   box-sizing: border-box;
   font-family: Carlito, arial;
   font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  color: black;
+  background-image: linear-gradient(to left,  #FB3B3C, aliceblue);
+  margin-bottom: 30px;
+}
+
+.judul3 {
+  display: flex;
+  width: 500px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: Carlito, arial;
+  font-size: 15px;
   font-weight: 700;
-  color: #e34f26;;
-  background-color: #f0db4f;
+  color: black;
+  background-image: linear-gradient(to left,  #FB4C4E, aliceblue);
+}
+
+.runningtext {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Carlito, arial;
 }
 
 .carousel-container {
@@ -198,6 +229,7 @@ body {
 
   .tabelId .kolomB .subList {
       margin-left: 15px;
+      font-size: 14px;
   }
 
   .footer {

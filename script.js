@@ -1,3 +1,10 @@
+let typed = new Typed(".runningtext", {
+    strings: ["- a Son a Father and a Husband", "- full time Student in the University of life", "- your partner for tougher team in your businesses"],
+    typeSpeed: 80,
+    backSpeed: 1,
+    loop: true,
+  });
+
 document.getElementById('button1');
     function a(img)
         {
