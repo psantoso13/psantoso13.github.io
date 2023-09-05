@@ -14,8 +14,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	/* border: 0; */
-	font-size: 100%;
-	font: inherit;
+	/* font-size: 100%; */
+	/* font: inherit; */
 	/* vertical-align: baseline; */
 }
 
@@ -27,7 +27,7 @@ time, mark, audio, video {
 body {
   background-image: url(img/bgimg.png);
   font-family: Verdana, sans-serif;
-  margin: 0slideso  
+  margin: 0  
 }
 .mySlides {
   display: none
@@ -249,7 +249,7 @@ img {
   font-family: Carlito, arial;
 }
 
-.carousel-container {
+/* .carousel-container {
     width: 500px;
     height: 300px;
     overflow: hidden;
@@ -274,7 +274,6 @@ img {
   
   .carousel-image {
     width: 550px;
-    /* height: 300px; */
     flex-shrink: 0;
     overflow: hidden;
   }
@@ -292,7 +291,7 @@ img {
     100% {
       transform: translateX(calc(-550px * 5));
     }
-  }
+  } */
 
   .tabelGambar {
     /* border: solid 3px; */
@@ -352,3 +351,61 @@ img {
     display: flex;
     justify-content: center;
   }
+
+/* style challengesPages */
+
+.backHariSenin {
+  width: 800px;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-image: linear-gradient(to bottom, red, aliceblue);
+  font-family: caladea;
+}
+
+section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+section img {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.subJudul {
+  font-family: carlito;
+}
+
+.imgHeader {
+  margin-bottom: 80px;
+}
+
+.assignments {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  font-family: carlito;
+}
+
+.assignInside a {
+  text-decoration: none;
+  color: greenyellow;
+  text-shadow: 1px 1px 1px black;
+  transition: cubic-bezier(1, 0, 0, 1)
+}
+
+.assignInside a h4{
+  margin-top: -20px;
+}
+
+.assignInside a:hover {
+  text-decoration: none;
+  color: snow;
+  text-shadow: 1px 1px 1px black;
+}
+
+.assignInside a img:hover {
+  transform: scale(1.1);
+}
