@@ -1,133 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400&family=Carlito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> -->
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <title>Portfolio - Prayogo Santoso</title>
-</head>
-<body>
-  <div class="backContainer">
+    <title>Prayogo Santoso - VA Servives Provider</title>
+  </head>
 
+  <body>
+    <!-- menu started -->
+    <div id="home" class="menuContainer">
+      <div class="menu">
+        <a href="#home" class="menuBox">Home</a>
+        <a href="#services" class="menuBox">Services</a>
+        <a href="#projects" class="menuBox">Projects</a>
+        <a href="#about" id="aboutMenu" class="menuBox">About Me</a>
+        <a href="#faqContainer" class="menuBox">FAQ</a>
+      </div>
+    </div>
+    <!-- menu ended -->
+
+    <div class="backContainer">
+      <!-- header started -->
       <header class="header">
-        <div>PRAYOGO SANTOSO... &nbsp; &nbsp; &nbsp; <span class="runningtext"></span></div>
+        <img src="./img/photo.jpg" alt="photo" />
+        <div>
+          <div>PRAYOGO SANTOSO...</div>
+          &nbsp; &nbsp; &nbsp; <span class="runningtext"></span>
+        </div>
       </header>
-  
-      <div class="judul">
-        <img src="img/Badge_ITS.png" width="50px">
+      <!-- header ended -->
+
+      <!-- degree started -->
+      <div class="degree">
+        <img src="img/Badge_ITS.png" />
         <p>Mechanical Engineer</p>
       </div>
+      <!-- degree ended -->
 
-      <div class="judul1">
-        <img src="img/weBuilder.png" width="50px">
-        <p>Web Programmer</p>
-      </div>
-
-      <div class="judul2">
+      <!-- quote started -->
+      <div class="openingQuote">
         <p>"find occupation that provide you one of these two!</p>
-        <p><span class="fonttebal">a place to learn</span> for you to grow OR <span class="fonttebal">a place to earn</span> for you to enjoy</p>
-        <p>if you can have both, be grateful you are in the right path</p>
-        <p>if you have neither of those, you are just wasting your time"</p>
+        <p>
+          <span class="fontXlQuote">a place to learn</span> for you to grow OR
+          <span class="fontXlQuote">a place to earn</span> for you to enjoy.
+        </p>
+        <p>if you can have both, be grateful you are in the right path.</p>
       </div>
-      
-      <div class="judul3">
-        <p>click carousel image(s) here under for portfolio / on-going project pages</p>
+      <!-- quote ended -->
+
+      <!-- services and skills started -->
+      <div id="services" class="services">
+        <div class="servicesProvided">
+          <p>Provided Services</p>
+        </div>
+        <div class="serviceList">
+          <img src="img/sgbva.png" />
+          <p>Virtual Assistant service provider</p>
+        </div>
+        <div class="skills">
+          <img src="img/google.png" />
+          <img src="img/emailM.png" />
+          <img src="img/sosmed.jpeg" class="sosmedImg" />
+          <img src="img/trello.png" />
+          <img src="img/asana.png" />
+        </div>
+
+        <div class="serviceList">
+          <img src="img/weBuilder.png" />
+          <p>Web Developer</p>
+        </div>
+        <div class="skills">
+          <img src="img/html.png" />
+          <img src="img/css.png" />
+          <img src="img/tilda.png" />
+          <img src="img/js.png" />
+        </div>
+
+        <div class="serviceList">
+          <img src="img/design.png" />
+          <p>Graphic Design</p>
+        </div>
+        <div class="skills">
+          <img src="img/gimp.png" />
+          <img src="img/canva.png" />
+          <img src="img/corel.png" />
+        </div>
+
+        <div class="serviceList">
+          <img src="img/photoio.png" />
+          <p>Photo and Videography</p>
+        </div>
+        <div class="skills">
+          <img src="img/camera.png" />
+          <img src="img/camcorder.png" />
+          <img src="img/vsdc.png" />
+          <img src="img/360.webp" />
+          <img src="img/capcut.png" />
+        </div>
+      </div>
+      <!-- services / skills ended -->
+
+      <!-- works / projects started -->
+      <div id="projects" class="projects">
+        <div class="projectWork">
+          <p>Sample of my work(s) / project(s)</p>
+        </div>
       </div>
 
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <a href="hsbcfsd.html" target="_blank"><img src="img/image3.jpeg" style="width:100%"></a>
-        <div class="text"></div>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <a
+            href="https://pojokmu.my.id/virtual-tour/enhanced/katakitaVilla/index.htm"
+            target="_blank"
+            ><img src="img/image1.png" style="width: 100%"
+          /></a>
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <a
+            href="https://ebank-front-page.netlify.app/index.html"
+            target="_blank"
+            ><img src="img/image2.png" style="width: 100%"
+          /></a>
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <a href="https://hsbc-tailwindcss.netlify.app/" target="_blank"
+            ><img src="img/image3.png" style="width: 100%"
+          /></a>
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <a href="https://www.instagram.com/prayogo.santoso/" target="_blank"
+            ><img src="img/image4.png" style="width: 100%"
+          /></a>
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <a href="https://www.tiktok.com/@prayogo_santoso" target="_blank"
+            ><img src="img/image5.png" style="width: 100%"
+          /></a>
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <a href="https://www.youtube.com/@prayogosantoso5707" target="_blank"
+            ><img src="img/image6.png" style="width: 100%"
+          /></a>
+          <div class="text"></div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <a href="scrimba.html" target="_blank"><img src="img/image1.jpeg" style="width:100%"></a>
-        <div class="text"></div>
+      <br />
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
       </div>
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <a href="fementor.html" target="_blank"><img src="img/image2.jpeg" style="width:100%"></a>
-        <div class="text"></div>
+      <!-- works / projects ended -->
+
+      <!-- about started -->
+      <div id="about" class="about">
+        <div class="aboutUpper">
+          <img src="img/photoID.jpg" width="150px" />
+
+          <div>
+            <p class="aboutName">Prayogo Santoso</p>
+            <p class="aboutContact">prayogo.santoso@gmail.com</p>
+            <p class="aboutContact">+62 858 5959 5945</p>
+          </div>
+        </div>
+
+        <div class="aboutMiddle">
+          <ul class="subList">
+            <li>
+              A Son, a Father and a Husband, blessed with a supportive family.
+            </li>
+          </ul>
+          <ul class="subList">
+            <li>
+              Again became addict to web and graphic design when Covid-19
+              attacked, during isolation far from home.
+            </li>
+          </ul>
+          <ul class="subList">
+            <li>
+              Been working across companies and nations, good team player as
+              well as independent individual.
+            </li>
+          </ul>
+          <ul class="subList">
+            <li>Equipped with Web Programming and Graphic Design skills.</li>
+          </ul>
+          <ul class="subList">
+            <li>
+              Always have big dreams and never afraid to cross the comfort zone
+              line.
+            </li>
+          </ul>
+          <ul class="subList">
+            <li>
+              New roads may give others sense of fear. For me, it just another
+              sight of beauty. Relax and enjoy the ride.
+            </li>
+          </ul>
+        </div>
+
+        <div class="aboutLower">
+          <a href="https://prayogo-santoso.netlify.app" target="_blank"
+            ><img
+              id="button1"
+              src="img/detailOff.png"
+              onmouseover="a(this);"
+              onmouseout="aOut(this)"
+              width="60px"
+          /></a>
+
+          <a
+            href="https://psantoso13.github.io/personalPage/certs.html"
+            target="_blank"
+            ><img
+              id="button2"
+              src="img/certOff.png"
+              onmouseover="b(this);"
+              onmouseout="bOut(this)"
+              width="60px"
+          /></a>
+
+          <a
+            href="https://api.whatsapp.com/send?phone=6285859595945&text=Salam...%20"
+            target="_blank"
+            ><img
+              id="button3"
+              src="img/contactOff.png"
+              onmouseover="c(this);"
+              onmouseout="cOut(this)"
+              width="60px"
+          /></a>
+
+          <a href="https://www.instagram.com/prayogo.santoso/" target="_blank"
+            ><img
+              id="button4"
+              src="img/instaOff.png"
+              onmouseover="d(this);"
+              onmouseout="dOut(this)"
+              width="60px"
+          /></a>
+        </div>
       </div>
-      <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <a href="frameworks.html" target="_blank"><img src="img/image4.jpeg" style="width:100%"></a>
-        <div class="text"></div>
+      <!-- about ended -->
+
+      <!-- FAQ Started -->
+      <div id="faqContainer" class="faqContainer">
+        <div class="faqBox">
+          <div class="faq">
+            <img src="./img/ask.png" class="faqImg" />
+            FAQs
+          </div>
+
+          <div id="title1" class="title1">
+            <div
+              class="font-bold text-xs hover:text-fuchsia-700 hover:cursor-pointer"
+            >
+              What services do you offer as a virtual assistant?
+            </div>
+            <div>
+              <img id="icon1" src="./img/plus.png" class="faqIcon" />
+            </div>
+          </div>
+          <div id="text1" class="text1">
+            I specialize in administrative tasks, email management, social media
+            management, content creation, and research.
+          </div>
+
+          <div id="title2" class="title2">
+            <div
+              class="font-bold text-xs hover:text-fuchsia-700 hover:cursor-pointer"
+            >
+              What tools and software are you proficient in?
+            </div>
+            <div>
+              <img id="icon2" src="../img/plus.png" class="faqIcon" />
+            </div>
+          </div>
+          <div id="text2" class="text2">
+            I am skilled in using Google Workspace (Gmail, Docs, Sheets,
+            Slides), Asana, Trello, Canva, and GIMP design software.
+          </div>
+
+          <div id="title3" class="title3">
+            <div
+              class="font-bold text-xs hover:text-fuchsia-700 hover:cursor-pointer"
+            >
+              How do you ensure client satisfaction and build trust?
+            </div>
+            <div>
+              <img id="icon3" src="../img/plus.png" class="faqIcon" />
+            </div>
+          </div>
+          <div id="text3" class="text3">
+            I prioritize open communication, timely delivery, and a strong
+            commitment to confidentiality. I strive to understand my clients'
+            unique needs and goals. I adhere to strict privacy policies and use
+            secure platforms to protect sensitive data. I adhere to strict
+            privacy policies and use secure platforms to protect sensitive data.
+            I also sign non-disclosure agreements when necessary.
+          </div>
+
+          <div id="title4" class="title4">
+            <div
+              class="font-bold text-xs hover:text-fuchsia-700 hover:cursor-pointer"
+            >
+              What are your typical working hours?
+            </div>
+            <div>
+              <img id="icon4" src="../img/plus.png" class="faqIcon" />
+            </div>
+          </div>
+          <div id="text4" class="text4">
+            I am available Monday to Friday from 9 AM to 5 PM [Your Timezone].
+            However, I can also accommodate flexible schedules as needed.
+          </div>
+
+          <div id="title5" class="title5">
+            <div
+              class="font-bold text-xs hover:text-fuchsia-700 hover:cursor-pointer"
+            >
+              What are your long-term goals as a virtual assistant?
+            </div>
+            <div>
+              <img id="icon5" src="../img/plus.png" class="faqIcon" />
+            </div>
+          </div>
+          <div id="text5" class="text5">
+            I aspire to become a specialized virtual assistant in a particular
+            niche and build a strong network of clients. I also aim to
+            continuously develop my skills and expertise.
+          </div>
+
+          <div id="title6" class="title6">
+            <div
+              class="font-bold text-xs hover:text-fuchsia-700 hover:cursor-pointer"
+            >
+              Is there any other services that you can offer to your clients?
+            </div>
+            <div>
+              <img id="icon6" src="../img/plus.png" class="faqIcon" />
+            </div>
+          </div>
+          <div id="text6" class="text6">
+            Yes, as listed in my web page, I can also provide services in
+            developing landing page for cliets. I can also provide services in
+            photography, videography and 360 virtual tour web pages.
+          </div>
+        </div>
       </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <!-- FAQ Ended -->
+
+      <footer class="footer">
+        <img src="img/satisfactionLogo.png" width="200px" />
+      </footer>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+      <script src="script.js"></script>
     </div>
-    <br>
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(0)"></span>
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    
-    <table class="tabelGambar">
-      <tr>
-        <td class="tabelPic"><img src="img/html.png" width="50px"></td>
-        <td class="tabelPic"><img src="img/css.png" width="50px"></td>
-        <td class="tabelPic"><img src="img/js.png" width="50px"></td>
-      </tr>
-    </table>
-
-    <table class="tabelId">
-      <tr>
-          <td class="kolomA" rowspan="4"><img src="img/photoID.jpg" width="150px"></td>
-          <td class="kolomB" rowspan="4">
-            <ul>
-              <li><span class="tebal">Prayogo Santoso</span> - <span class="tebal1">prayogo.santoso@gmail.com</span> <br> <span class="tebal1">+62 858 5959 5945</span>
-              <ul class="subList">
-                <li>A Son, a Father and a Husband, blessed with a supportive family.</li>
-              </ul>
-                <ul class="subList">
-                  <li>Again became addict to coding when Covid-19 attacked, during isolation far from home.</li>
-                </ul>
-                <ul class="subList">
-                  <li>Been working across companies and nations, good team player as well as independent individual.</li>
-                </ul>
-                <ul class="subList">
-                  <li>Equipped with Web Programming and Graphic Design skills.</li>
-                </ul>
-                <ul class="subList">
-                  <li>Always have big dreams and never afraid to cross the comfort zone line.</li>
-                </ul>
-                <ul class="subList">
-                  <li>New roads may give others sense of fear. For me, it just another sight of beauty. Relax and enjoy the ride.</li>
-                </ul>
-              </li>
-            </ul>
-          </td>
-          <td class="tombKanan"><a href="https://prayogo-santoso.netlify.app" target="_blank"><img id='button1' src="img/detailOff.png" onmouseover="a(this);" onmouseout="aOut(this)" width="60px"></a></td>
-      </tr>
-      <tr>
-        <td class="tombKanan"><a href="https://psantoso13.github.io/personalPage/certs.html" target="_blank"><img id='button2' src="img/certOff.png" onmouseover="b(this);" onmouseout="bOut(this)" width="60px"></a></td>
-      </tr>
-      <tr>
-        <td class="tombKanan"><a href="https://api.whatsapp.com/send?phone=6285859595945&text=Salam...%20" target="_blank"><img id='button3' src="img/contactOff.png" onmouseover="c(this);" onmouseout="cOut(this)" width="60px"></a></td>
-      </tr>
-      <tr>
-        <td class="tombKanan"><a href="https://github.com/psantoso13" target="_blank"><img id='button4' src="img/gitOff.png" onmouseover="d(this);" onmouseout="dOut(this)" width="60px"></a></td>
-      </tr>
-  </table>
-
-  <footer class="footer">
-    <img src="img/satisfactionLogo.png" width="200px">
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-  <script src="script.js"></script>
-
-  </div>
-</body>
+  </body>
 </html>
