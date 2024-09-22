@@ -145,6 +145,7 @@ img {
 @media (max-width: 768px) {
   .backContainer {
     width: 375px;
+    background-image: none;
   }
 }
 
@@ -256,7 +257,9 @@ img {
 }
 
 .degree,
-.serviceList {
+.projectWork,
+.servicesProvided,
+.skillsPossessed {
   display: flex;
   width: 690px;
   height: 60px;
@@ -267,36 +270,36 @@ img {
   margin-bottom: 10px;
   padding: 10px;
   box-sizing: border-box;
-  font-family: panton, arial;
+  font-family: Carlito, arial;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
   .degree,
-  .serviceList {
+  .projectWork,
+  .servicesProvided,
+  .skillsPossessed {
     display: flex;
     width: 375px;
     height: 60px;
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 700;
   }
 }
 
-@media (max-width: 768px) {
-  .serviceList {
-    background-image: none;
-  }
-}
-
-.degree p,
-.serviceList p {
+.degree p {
   margin-right: 30px;
 }
 
 .degree img,
-.serviceList img {
-  margin-right: 10px;
+.serviceList img,
+.skillsList img {
+  margin-right: 20px;
+}
+
+.sosmedImg {
+  border-radius: 30px;
 }
 
 .openingQuote {
@@ -333,37 +336,8 @@ img {
   }
 }
 
-.skills {
-  display: flex;
-  width: 600px;
-  height: 60px;
-  background-image: linear-gradient(to left, #6efbbd, aliceblue);
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 10px;
-  margin: auto;
-  margin-bottom: 30px;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.skills img {
-  margin-left: 10px;
-  margin-right: 20px;
-}
-
-.sosmedImg {
-  border-radius: 50px;
-}
-
-@media (max-width: 768px) {
-  .skills {
-    display: none;
-  }
-}
-
-.projectWork,
-.servicesProvided {
+.serviceList,
+.skillsList {
   display: flex;
   width: 630px;
   height: 60px;
@@ -373,18 +347,29 @@ img {
   margin-bottom: 20px;
   padding: 10px;
   box-sizing: border-box;
-  font-family: Carlito, arial;
+  font-family: panton, arial;
   font-size: 1.25rem;
   font-weight: 700;
   background-image: linear-gradient(to left, #6efbbd, aliceblue);
 }
 
+.skillsList {
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
-  .projectWork,
-  .servicesProvided {
+  .serviceList,
+  .skillsList {
     width: 375px;
-    height: 30px;
-    font-size: 0.875rem;
+    height: 60px;
+    font-size: 1rem;
+    background-image: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsList {
+    justify-content: left;
   }
 }
 
@@ -401,12 +386,12 @@ img {
 }
 
 .aboutName {
-  font-family: panton, 'sans-serif';
+  font-family: panton, "sans-serif";
   font-size: 1.5rem;
 }
 
 .aboutContact {
-  font-family: quickSand, 'sans-serif';
+  font-family: quickSand, "sans-serif";
   font-size: 1.25rem;
 }
 
@@ -534,8 +519,8 @@ img {
 }
 
 .services,
+.skills,
 .projects,
-.about,
 .about,
 .faqContainer {
   padding-top: 5.5rem;
@@ -543,8 +528,8 @@ img {
 
 @media (max-width: 768px) {
   .services,
+  .skills,
   .projects,
-  .about,
   .about,
   .faqContainer {
     padding-top: 4.5rem;
