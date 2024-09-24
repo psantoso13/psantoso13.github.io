@@ -32,7 +32,9 @@
 }
 
 body {
-  background-image: url(img/bgimg.png);
+  /* background-image: url(img/bgimg.png); */
+  /* background-image: linear-gradient(to right, #d9f99d, #22d3ee); */
+  background-image: linear-gradient(to right, #d1f1d0, #9af7e5);
   font-family: Arial, sans-serif;
   color: #111111;
 }
@@ -139,7 +141,7 @@ img {
   padding-bottom: 50px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: linear-gradient(to bottom, #5bfaa6, aliceblue);
+  background-image: linear-gradient(to bottom, #d1f1d0, aliceblue);
 }
 
 @media (max-width: 768px) {
@@ -169,7 +171,7 @@ img {
   border-bottom-right-radius: 10px;
   margin: auto;
   box-sizing: border-box;
-  background-image: linear-gradient(to left, #54fba4, aliceblue);
+  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
   z-index: 1;
 }
 
@@ -209,7 +211,7 @@ img {
   display: flex;
   width: 780px;
   height: 220px;
-  background-image: linear-gradient(to left, #54fba4, aliceblue);
+  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -263,7 +265,7 @@ img {
   display: flex;
   width: 690px;
   height: 60px;
-  background-image: linear-gradient(to left, #54fba4, aliceblue);
+  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -318,7 +320,7 @@ img {
   font-weight: 400;
   font-style: italic;
   text-align: center;
-  background-image: linear-gradient(to left, #54fba4, aliceblue);
+  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
   margin-bottom: 30px;
 }
 
@@ -350,7 +352,7 @@ img {
   font-family: panton, arial;
   font-size: 1.25rem;
   font-weight: 700;
-  background-image: linear-gradient(to left, #6efbbd, aliceblue);
+  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
 }
 
 .skillsList {
