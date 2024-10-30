@@ -7,19 +7,26 @@
 @font-face {
   font-family: "mobileSports";
   src: url("./fonts/mobileSports.otf");
-  font-style: normal;
 }
 
 @font-face {
   font-family: "panton";
   src: url("./fonts/panton.ttf");
-  font-style: normal;
 }
 
 @font-face {
   font-family: "quicksand";
   src: url("./fonts/quicksand.otf");
-  font-style: italic;
+}
+
+@font-face {
+  font-family: "spiderMan";
+  src: url("./fonts/spiderMan.ttf");
+}
+
+@font-face {
+  font-family: "homoarak";
+  src: url("./fonts//homoarak.TTF");
 }
 
 * {
@@ -34,7 +41,7 @@
 body {
   /* background-image: url(img/bgimg.png); */
   /* background-image: linear-gradient(to right, #d9f99d, #22d3ee); */
-  background-image: linear-gradient(to right, #d1f1d0, #9af7e5);
+  background-image: linear-gradient(to right, #ffffff, #b0b0b0);
   font-family: Arial, sans-serif;
   color: #111111;
 }
@@ -138,16 +145,17 @@ img {
   width: 800px;
   margin: auto;
   margin-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: linear-gradient(to bottom, #d1f1d0, aliceblue);
+  background-image: linear-gradient(to bottom, #f0523b, #6ab6e4);
 }
 
 @media (max-width: 768px) {
   .backContainer {
-    width: 375px;
-    background-image: none;
+    width: 400px;
+    background-image: linear-gradient(to bottom, #f0523b, #6ab6e4);
   }
 }
 
@@ -171,7 +179,7 @@ img {
   border-bottom-right-radius: 10px;
   margin: auto;
   box-sizing: border-box;
-  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
+  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
   z-index: 1;
 }
 
@@ -206,40 +214,136 @@ img {
 }
 
 /* menu CSS ended */
-
-.header {
-  display: flex;
+.hero {
+  background-image: url("./img/spiderManL.jpg");
   width: 780px;
-  height: 220px;
-  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
+  height: 420px;
   align-items: center;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 30px;
   padding: 50px;
   box-sizing: border-box;
-  font-family: mobileSports, arial;
-  font-size: 1.75rem;
-  font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  .header {
+  .hero {
+    background-image: url("./img/spiderManS.jpg");
     display: grid;
     width: 375px;
-    height: 280px;
+    height: 200px;
     padding: 20px;
     font-size: 1rem;
   }
 }
 
-.header img {
+.me,
+.noteContainer,
+.gd,
+.ve,
+.wd,
+.em,
+.cw,
+.ssm {
+  display: flex;
+  width: 690px;
+  height: 180px;
+  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 50px;
+  box-sizing: border-box;
+  font-family: quicksand, arial;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.me {
+  width: 780px;
+}
+
+.noteContainer {
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  .me,
+  .noteContainer,
+  .gd,
+  .ve,
+  .wd,
+  .em,
+  .cw,
+  .ssm {
+    display: grid;
+    width: 375px;
+    height: 360px;
+    padding: 20px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .gd,
+  .ve,
+  .wd,
+  .em,
+  .cw,
+  .ssm {
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .noteContainer {
+    height: 150px;
+  }
+}
+
+.welcome,
+.note {
+  font-family: quicksand, arial;
+  font-size: 1rem;
+}
+
+.noteMe {
+  font-family: quicksand, arial;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .welcome,
+  .note {
+    font-family: quicksand, arial;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .noteMe {
+    font-family: quicksand, arial;
+    font-size: 1rem;
+  }
+}
+
+.note {
+  text-align: justify;
+}
+
+.virtual {
+  font-family: homoarak, arial;
+  font-size: 1.75rem;
+}
+
+.me img {
   margin-right: 50px;
   border-radius: 10px;
 }
 
 @media (max-width: 768px) {
-  .header img {
+  .me img {
     margin: auto;
   }
 }
@@ -258,30 +362,26 @@ img {
   }
 }
 
-.degree,
 .projectWork,
-.servicesProvided,
-.skillsPossessed {
+.allServices {
   display: flex;
   width: 690px;
   height: 60px;
-  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
+  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
   align-items: center;
   border-radius: 10px;
   margin: auto;
   margin-bottom: 10px;
   padding: 10px;
   box-sizing: border-box;
-  font-family: Carlito, arial;
-  font-size: 1.25rem;
+  font-family: homoarak, arial;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  .degree,
   .projectWork,
-  .servicesProvided,
-  .skillsPossessed {
+  .allServices {
     display: flex;
     width: 375px;
     height: 60px;
@@ -290,18 +390,43 @@ img {
   }
 }
 
-.degree p {
-  margin-right: 30px;
+.normal {
+  font-family: quicksand, arial;
 }
 
-.degree img,
-.serviceList img,
-.skillsList img {
-  margin-right: 20px;
+.servicesList {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 780px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
-.sosmedImg {
-  border-radius: 30px;
+@media (max-width: 768px) {
+  .servicesList {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 375px;
+    margin: auto;
+  }
+}
+
+.servicesList img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .servicesList img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+}
+
+.aImg {
+  text-align: center;
 }
 
 .openingQuote {
@@ -335,47 +460,6 @@ img {
     height: 50px;
     padding: 0px;
     font-size: 0.72rem;
-  }
-}
-
-.serviceList,
-.skillsList {
-  display: flex;
-  width: 630px;
-  height: 60px;
-  align-items: center;
-  border-radius: 10px;
-  margin: auto;
-  margin-bottom: 20px;
-  padding: 10px;
-  box-sizing: border-box;
-  font-family: panton, arial;
-  font-size: 1.25rem;
-  font-weight: 700;
-  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
-}
-
-.skillsList {
-  justify-content: space-between;
-}
-
-.jsImg {
-  border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-  .serviceList,
-  .skillsList {
-    width: 375px;
-    height: 60px;
-    font-size: 1rem;
-    background-image: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .skillsList {
-    justify-content: left;
   }
 }
 
@@ -525,19 +609,29 @@ img {
 }
 
 .services,
-.skills,
 .projects,
 .about,
-.faqContainer {
+.faqContainer,
+.gdContainer,
+.veContainer,
+.wdContainer,
+.emContainer,
+.cwContainer,
+.ssmContainer {
   padding-top: 5.5rem;
 }
 
 @media (max-width: 768px) {
   .services,
-  .skills,
   .projects,
   .about,
-  .faqContainer {
+  .faqContainer,
+  .gdContainer,
+  .veContainer,
+  .wdContainer,
+  .emContainer,
+  .cwContainer,
+  .ssmContainer {
     padding-top: 4.5rem;
   }
 }
