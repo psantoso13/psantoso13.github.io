@@ -39,8 +39,6 @@
 }
 
 body {
-  /* background-image: url(img/bgimg.png); */
-  /* background-image: linear-gradient(to right, #d9f99d, #22d3ee); */
   background-image: linear-gradient(to right, #ffffff, #b0b0b0);
   font-family: Arial, sans-serif;
   color: #111111;
@@ -292,8 +290,32 @@ img {
   .em,
   .cw,
   .ssm {
-    height: 150px;
+    height: 180px;
   }
+}
+
+.gd {
+  background-image: linear-gradient(to right, #f0523b, #6ab6e4);
+}
+
+.ve {
+  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
+}
+
+.wd {
+  background-image: linear-gradient(to right, #b0b0b0, #ffffff);
+}
+
+.em {
+  background-image: linear-gradient(to right, #6ab6e4, #f0523b);
+}
+
+.cw {
+  background-image: linear-gradient(to right, #d3d3d3, #ffea00);
+}
+
+.ssm {
+  background-image: linear-gradient(to right, #ffffff,#b0b0b0);
 }
 
 @media (max-width: 768px) {
@@ -306,6 +328,7 @@ img {
 .note {
   font-family: quicksand, arial;
   font-size: 1rem;
+
 }
 
 .noteMe {
@@ -394,6 +417,10 @@ img {
   font-family: quicksand, arial;
 }
 
+.servicesTitle {
+  font-size: 1.25rem;
+}
+
 .servicesList {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -476,7 +503,7 @@ img {
 }
 
 .aboutName {
-  font-family: panton, "sans-serif";
+  font-family: quickSand, "sans-serif";
   font-size: 1.5rem;
 }
 
@@ -490,7 +517,7 @@ img {
   padding-right: 10px;
   text-align: justify;
   margin-top: 30px;
-  font-family: panton, sans-serif;
+  font-family: quickSand, sans-serif;
   font-size: 0.875rem;
 }
 
@@ -500,8 +527,8 @@ img {
     padding-right: 100px;
     text-align: justify;
     margin-top: 30px;
-    font-family: panton, sans-serif;
-    font-size: 0.875rem;
+    font-family: quickSand, sans-serif;
+    font-size: 1rem;
   }
 }
 
@@ -541,6 +568,7 @@ img {
   align-items: center;
   justify-content: space-between;
   font-size: 1rem;
+  font-family: quickSand, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -567,6 +595,7 @@ img {
   padding: 15px;
   border-radius: 15px;
   font-size: 1rem;
+  font-family: quickSand, sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -586,7 +615,7 @@ img {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 2rem;
-  font-family: panton, arial;
+  font-family: homoarak, arial;
 }
 
 .faqImg {
