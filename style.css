@@ -1,27 +1,6 @@
 @font-face {
-  font-family: "louisCafe";
-  src: url("./fonts/louisCafe.ttf");
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "mobileSports";
-  src: url("./fonts/mobileSports.otf");
-}
-
-@font-face {
-  font-family: "panton";
-  src: url("./fonts/panton.ttf");
-}
-
-@font-face {
   font-family: "quicksand";
   src: url("./fonts/quicksand.otf");
-}
-
-@font-face {
-  font-family: "spiderMan";
-  src: url("./fonts/spiderMan.ttf");
 }
 
 @font-face {
@@ -39,7 +18,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, #ffffff, #b0b0b0);
+  background-color: #d7d7d7;
   font-family: Arial, sans-serif;
   color: #111111;
 }
@@ -139,37 +118,41 @@ img {
 
 /* carousel CSS ended */
 
+
 .backContainer {
-  width: 800px;
+  width: 98%;
   margin: auto;
   margin-top: 80px;
   padding-top: 10px;
   padding-bottom: 30px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: linear-gradient(to bottom, #f0523b, #6ab6e4);
+  background-image: url("./img/bg.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position-y: bottom;
+
 }
 
 @media (max-width: 768px) {
   .backContainer {
-    width: 400px;
-    background-image: linear-gradient(to bottom, #f0523b, #6ab6e4);
+    width: 98%;
   }
 }
 
 /* menu CSS started */
 
 .menuContainer {
-  width: 800px;
+  display: flex;
+  width: 100%;
   margin: auto;
-  border-radius: 20px;
   padding-bottom: 30px;
 }
 
 .menu {
   position: fixed;
   display: flex;
-  width: 800px;
+  width: 100%;
   height: 60px;
   align-items: center;
   justify-content: space-around;
@@ -177,7 +160,6 @@ img {
   border-bottom-right-radius: 10px;
   margin: auto;
   box-sizing: border-box;
-  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
   z-index: 1;
 }
 
@@ -189,7 +171,8 @@ img {
 }
 
 .menuBox {
-  background-color: aquamarine;
+  background-color: #142133;
+  color: aliceblue;
   border-radius: 10px;
   padding: 10px;
   font-size: 1rem;
@@ -207,14 +190,17 @@ img {
 }
 
 .menuBox:hover {
-  background-color: #c3f4d5;
-  color: #777777;
+  background-color: #b7c3bd;
+  color: black;
 }
 
 /* menu CSS ended */
+
+
 .hero {
-  background-image: url("./img/spiderManL.jpg");
-  width: 780px;
+  background-image: url("./img/VAbg.png");
+  background-size: 100% 100%;
+  width: 90%;
   height: 420px;
   align-items: center;
   border-radius: 10px;
@@ -226,7 +212,7 @@ img {
 
 @media (max-width: 768px) {
   .hero {
-    background-image: url("./img/spiderManS.jpg");
+    background-image: url("./img/VAbg.png");
     display: grid;
     width: 375px;
     height: 200px;
@@ -237,16 +223,17 @@ img {
 
 .me,
 .noteContainer,
-.gd,
-.ve,
-.wd,
+.lg,
+.smm,
 .em,
 .cw,
-.ssm {
+.gd,
+.wd,
+.ve,
+.e360 {
   display: flex;
-  width: 690px;
+  width: 90%;
   height: 180px;
-  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -258,23 +245,42 @@ img {
   font-weight: 700;
 }
 
-.me {
+.lg,
+.smm,
+.em,
+.cw,
+.gd,
+.wd,
+.ve,
+.e360 {
   width: 780px;
+  background-image: url("./img/carouselBG.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position-y: bottom;
+  height: 120px;
 }
 
 .noteContainer {
   height: 150px;
+  background-image: url("./img/carouselBG.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position-y: bottom;
+  background-position: bottom; 
 }
 
 @media (max-width: 768px) {
   .me,
   .noteContainer,
-  .gd,
-  .ve,
-  .wd,
+  .lg,
+  .smm,
   .em,
   .cw,
-  .ssm {
+  .gd,
+  .wd,
+  .ve,
+  .e360 {
     display: grid;
     width: 375px;
     height: 360px;
@@ -284,38 +290,16 @@ img {
 }
 
 @media (max-width: 768px) {
-  .gd,
-  .ve,
-  .wd,
+  .lg,
+  .smm,
   .em,
   .cw,
-  .ssm {
+  .gd,
+  .wd,
+  .ve,
+  .e360 {
     height: 180px;
   }
-}
-
-.gd {
-  background-image: linear-gradient(to right, #f0523b, #6ab6e4);
-}
-
-.ve {
-  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
-}
-
-.wd {
-  background-image: linear-gradient(to right, #b0b0b0, #ffffff);
-}
-
-.em {
-  background-image: linear-gradient(to right, #6ab6e4, #f0523b);
-}
-
-.cw {
-  background-image: linear-gradient(to right, #d3d3d3, #ffea00);
-}
-
-.ssm {
-  background-image: linear-gradient(to right, #ffffff,#b0b0b0);
 }
 
 @media (max-width: 768px) {
@@ -328,7 +312,6 @@ img {
 .note {
   font-family: quicksand, arial;
   font-size: 1rem;
-
 }
 
 .noteMe {
@@ -390,7 +373,6 @@ img {
   display: flex;
   width: 690px;
   height: 60px;
-  background-image: linear-gradient(to right, #ffea00, #d3d3d3);
   align-items: center;
   border-radius: 10px;
   margin: auto;
@@ -398,7 +380,7 @@ img {
   padding: 10px;
   box-sizing: border-box;
   font-family: homoarak, arial;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -413,6 +395,10 @@ img {
   }
 }
 
+.allServices {
+  width: 90%;
+}
+
 .normal {
   font-family: quicksand, arial;
 }
@@ -423,10 +409,10 @@ img {
 
 .servicesList {
   display: grid;
-  grid-template-columns: auto auto auto;
-  width: 780px;
+  grid-template-columns: auto auto auto auto;
+  width: 90%;
   margin: auto;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -444,41 +430,36 @@ img {
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
-  .servicesList img {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-  }
-}
-
 .aImg {
   text-align: center;
 }
 
-.openingQuote {
-  display: grid;
-  width: 500px;
-  height: 100px;
-  align-items: center;
-  border-radius: 10px;
+.lgContainer,
+.smmContainer,
+.emContainer,
+.cwContainer,
+.gdContainer,
+.wdContainer,
+.veContainer,
+.e360Container {
+  width: 780px;
   margin: auto;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  padding: 10px;
-  box-sizing: border-box;
-  font-family: Arial;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-style: italic;
-  text-align: center;
-  background-image: linear-gradient(to left, #d1f1d0, aliceblue);
-  margin-bottom: 30px;
 }
 
-.fontXlQuote {
-  font-weight: 700;
+@media (max-width: 768px) {
+  .lgContainer,
+  .smmContainer,
+  .emContainer,
+  .cwContainer,
+  .gdContainer,
+  .wdContainer,
+  .veContainer,
+  .e360Container {
+    width: 90%;
+    margin: auto;
+  }
 }
+
 
 @media (max-width: 768px) {
   .openingQuote {
@@ -487,6 +468,17 @@ img {
     height: 50px;
     padding: 0px;
     font-size: 0.72rem;
+  }
+}
+
+.about {
+  width: 780px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .about {
+    width: 90%;
   }
 }
 
@@ -503,7 +495,7 @@ img {
 }
 
 .aboutName {
-  font-family: quickSand, "sans-serif";
+  font-family: homoarak, "sans-serif";
   font-size: 1.5rem;
 }
 
@@ -591,7 +583,10 @@ img {
   display: none;
   margin-bottom: 25px;
   text-align: justify;
-  background-color: #c3f4d5;
+  background-image: url("./img/carouselBG.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position-y: bottom;
   padding: 15px;
   border-radius: 15px;
   font-size: 1rem;
@@ -621,7 +616,6 @@ img {
 .faqImg {
   width: 40px;
   height: 40px;
-  fill: lightsalmon;
 }
 
 .faqIcon {
@@ -641,12 +635,14 @@ img {
 .projects,
 .about,
 .faqContainer,
-.gdContainer,
-.veContainer,
-.wdContainer,
+.lgContainer,
+.smmContainer,
 .emContainer,
 .cwContainer,
-.ssmContainer {
+.gdContainer,
+.wdContainer,
+.veContainer,
+.e360Container {
   padding-top: 5.5rem;
 }
 
@@ -655,12 +651,14 @@ img {
   .projects,
   .about,
   .faqContainer,
-  .gdContainer,
-  .veContainer,
-  .wdContainer,
+  .lgContainer,
+  .smmContainer,
   .emContainer,
   .cwContainer,
-  .ssmContainer {
+  .gdContainer,
+  .wdContainer,
+  .veContainer,
+  .e360Container {
     padding-top: 4.5rem;
   }
 }
