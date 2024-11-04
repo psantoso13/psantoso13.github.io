@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #d7d7d7;
+  background-color: rgba(177 200 229 0.5);
   font-family: Arial, sans-serif;
   color: #111111;
 }
@@ -127,7 +127,7 @@ img {
   padding-bottom: 30px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  background-image: url("./img/bg.png");
+  background-image: url("./img/backGR.png");
   background-size: 100% 100%;
   background-attachment: fixed;
   background-position-y: bottom;
