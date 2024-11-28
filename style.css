@@ -222,7 +222,7 @@ img {
 
 .me,
 .noteContainer,
-.lg,
+.uiux,
 .smm,
 .em,
 .cw,
@@ -244,7 +244,7 @@ img {
   font-weight: 700;
 }
 
-.lg,
+.uiux,
 .smm,
 .em,
 .cw,
@@ -272,7 +272,7 @@ img {
 @media (max-width: 768px) {
   .me,
   .noteContainer,
-  .lg,
+  .uiux,
   .smm,
   .em,
   .cw,
@@ -289,7 +289,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .lg,
+  .uiux,
   .smm,
   .em,
   .cw,
@@ -433,7 +433,7 @@ img {
   text-align: center;
 }
 
-.lgContainer,
+.uiuxContainer,
 .smmContainer,
 .emContainer,
 .cwContainer,
@@ -446,7 +446,7 @@ img {
 }
 
 @media (max-width: 768px) {
-  .lgContainer,
+  .uiuxContainer,
   .smmContainer,
   .emContainer,
   .cwContainer,
@@ -634,7 +634,7 @@ img {
 .projects,
 .about,
 .faqContainer,
-.lgContainer,
+.uiuxContainer,
 .smmContainer,
 .emContainer,
 .cwContainer,
@@ -650,7 +650,7 @@ img {
   .projects,
   .about,
   .faqContainer,
-  .lgContainer,
+  .uiuxContainer,
   .smmContainer,
   .emContainer,
   .cwContainer,
