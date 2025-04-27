@@ -223,7 +223,7 @@ img {
 .me,
 .noteContainer,
 .uiux,
-.smm,
+.mqa,
 .em,
 .cw,
 .gd,
@@ -245,7 +245,7 @@ img {
 }
 
 .uiux,
-.smm,
+.mqa,
 .em,
 .cw,
 .gd,
@@ -273,7 +273,7 @@ img {
   .me,
   .noteContainer,
   .uiux,
-  .smm,
+  .mqa,
   .em,
   .cw,
   .gd,
@@ -290,7 +290,7 @@ img {
 
 @media (max-width: 768px) {
   .uiux,
-  .smm,
+  .mqa,
   .em,
   .cw,
   .gd,
@@ -434,7 +434,7 @@ img {
 }
 
 .uiuxContainer,
-.smmContainer,
+.mqaContainer,
 .emContainer,
 .cwContainer,
 .gdContainer,
@@ -447,7 +447,7 @@ img {
 
 @media (max-width: 768px) {
   .uiuxContainer,
-  .smmContainer,
+  .mqaContainer,
   .emContainer,
   .cwContainer,
   .gdContainer,
@@ -635,7 +635,7 @@ img {
 .about,
 .faqContainer,
 .uiuxContainer,
-.smmContainer,
+.mqaContainer,
 .emContainer,
 .cwContainer,
 .gdContainer,
@@ -651,7 +651,7 @@ img {
   .about,
   .faqContainer,
   .uiuxContainer,
-  .smmContainer,
+  .mqaContainer,
   .emContainer,
   .cwContainer,
   .gdContainer,
